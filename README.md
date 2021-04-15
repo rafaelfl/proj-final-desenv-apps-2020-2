@@ -61,7 +61,7 @@ A API sempre vai retornar um JSON no seguinte formato:
 
 &quot;data&quot; : { dados em formato JSON },
 
-&quot;message&quot; : \&lt;string\&gt; [opcional, retorna principalmente informações de erros]
+&quot;message&quot; : \<string\> [opcional, retorna principalmente informações de erros]
 
 }
 
@@ -159,7 +159,7 @@ _Exemplo de resultado retornado:_
 
 Cabeçalho das mensagens a seguir:
 
-**Authorization**** : **** Bearer **** \&lt;SEU TOKEN AQUI\&gt;**
+**Authorization**** : **** Bearer **** \<SEU TOKEN AQUI\>**
 
 Isso vale para todas as requisições!!!
 
@@ -205,7 +205,7 @@ _Exemplo de resultado retornado:_
 
 **Consultar um produto**
 
-_Endpoint:_https://restful-ecommerce-ufma.herokuapp.com/api/v1/products/\&lt;CÓDIGO DO PRODUTO\&gt;
+_Endpoint:_https://restful-ecommerce-ufma.herokuapp.com/api/v1/products/\<CÓDIGO DO PRODUTO\>
 
 _Exemplo:_https://restful-ecommerce-ufma.herokuapp.com/api/v1/products/2
 
@@ -467,7 +467,7 @@ Os pedidos podem ter um dos dois três estados: &quot;pending&quot; (aguardando 
 
 **Cancelar um pedido**
 
-_Endpoint:_https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/\&lt;CÓDIGO DO PEDIDO\&gt;/cancel
+_Endpoint:_https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/\<CÓDIGO DO PEDIDO\>/cancel
 
 _Exemplo_: https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/1/cancel
 
@@ -523,7 +523,7 @@ _Exemplo de resultado retornado:_
 
 **Pagar um pedido**
 
-_Endpoint:_https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/\&lt;CÓDIGO DO PEDIDO\&gt;/pay
+_Endpoint:_https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/\<CÓDIGO DO PEDIDO\>/pay
 
 _Exemplo_: https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/2/pay
 
@@ -607,7 +607,7 @@ Código de status 201
 
 **Remover um produto da loja**
 
-_Endpoint:_https://restful-ecommerce-ufma.herokuapp.com/api/v1/products/\&lt;CÓDIGO DO PRODUTO\&gt;
+_Endpoint:_https://restful-ecommerce-ufma.herokuapp.com/api/v1/products/\<CÓDIGO DO PRODUTO\>
 
 _Exemplo:_https://restful-ecommerce-ufma.herokuapp.com/api/v1/products/6
 
