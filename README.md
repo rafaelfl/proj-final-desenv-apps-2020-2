@@ -620,5 +620,3 @@ Não há
 _Exemplo de resultado retornado:_
 
 Mensagem vazia com o código de status 204 (sem conteúdo)
-
-21
