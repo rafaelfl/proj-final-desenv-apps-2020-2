@@ -1,4 +1,4 @@
-# Documentação da API do Projeto da Disciplina &quot;Desenvolvimento de Aplicações Móveis
+# Documentação da API do Projeto da Disciplina Desenvolvimento de Aplicações Móveis
 
 ECP-UFMA (2020-2)
 
@@ -55,15 +55,15 @@ Para acessar a API REST, você deverá inicialmente realizar o login no serviço
 
 A API sempre vai retornar um JSON no seguinte formato:
 
+```
 {
+    success: true | false,
 
-&quot;success&quot;: true | false,
+    data: { dados em formato JSON },
 
-&quot;data&quot; : { dados em formato JSON },
-
-&quot;message&quot; : \<string\> [opcional, retorna principalmente informações de erros]
-
+    message: <string> [opcional, retorna principalmente informações de erros]
 }
+```
 
 A seguir são detalhadas as funcionalidades disponíveis na API e suas interfaces de acesso.
 
