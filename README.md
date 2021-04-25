@@ -295,6 +295,43 @@ _Exemplo de resultado retornado:_
 
 }
 
+**Remover produto do carrinho**
+
+_Endpoint:_ https://restful-ecommerce-ufma.herokuapp.com/api/v1/cart/remove/<ID DO PRODUTO>
+    
+_Exemplo:_ https://restful-ecommerce-ufma.herokuapp.com/api/v1/cart/remove/3
+
+_Método:_ POST
+
+_Exemplo de resultado retornado:_
+
+{
+
+&quot;success&quot;: true,
+
+&quot;data&quot;: {
+
+&quot;cartItem&quot;: {
+
+&quot;items&quot;: [
+],
+
+&quot;totalAmount&quot;: 492
+
+},
+
+&quot;id&quot;: 1,
+
+&quot;userId&quot;: 2,
+
+&quot;createdAt&quot;: &quot;2021-04-15T00:04:12.803Z&quot;,
+
+&quot;updatedAt&quot;: &quot;2021-04-15T02:44:31.751Z&quot;
+
+}
+
+}
+
 **Listar produtos no carrinho**
 
 _Endpoint:_[https://restful-ecommerce-ufma.herokuapp.com/api/v1/cart](https://restful-ecommerce-ufma.herokuapp.com/api/v1/cart)
