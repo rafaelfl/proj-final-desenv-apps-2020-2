@@ -13,14 +13,15 @@ O aplicativo deverá implementar as seguintes histórias de usuário:
 1. Como **comprador** , eu quero realizar o login para acessar o sistema;
 2. Como **comprador** , eu quero listar os produtos disponíveis na loja para que eu possa identificar oportunidades de compra;
 3. Como **comprador** , eu quero adicionar produtos ao meu carrinho de compras para que eu possa comprar vários produtos em um mesmo pedido;
-4. Como **comprador** , eu quero finalizar o pedido a partir do carrinho para que eu possa pagar o meu pedido;
-5. Como **comprador** , eu quero pagar o meu pedido para que eu possa receber os meus produtos;
-6. Como **comprador** , eu quero cancelar o meu pedido para que eu possa desistir da minha compra;
-7. Como **comprador** , eu quero visualizar todos os pedidos que eu já realizei para que eu possa entender como está o meu histórico de compras na loja;
-8. Como **lojista** , eu quero realizar o login para acessar o sistema;
-9. Como **lojista** , eu quero listar todos os pedidos da minha loja e os seus valores para que eu possa controlar como está a entrada de dinheiro;
-10. Como **lojista** , eu quero cadastrar novos produtos para oferecer novas opções de compra para os meus clientes;
-11. Como **lojista** , eu apagar produtos para remover produtos que não estejam mais sendo vendidos.
+4. Como **comprador** , eu quero remover produtos do meu carrinho de compras; [OPCIONAL]
+5. Como **comprador** , eu quero finalizar o pedido a partir do carrinho para que eu possa pagar o meu pedido;
+6. Como **comprador** , eu quero pagar o meu pedido para que eu possa receber os meus produtos;
+7. Como **comprador** , eu quero cancelar o meu pedido para que eu possa desistir da minha compra;
+8. Como **comprador** , eu quero visualizar todos os pedidos que eu já realizei para que eu possa entender como está o meu histórico de compras na loja;
+9. Como **lojista** , eu quero realizar o login para acessar o sistema;
+10. Como **lojista** , eu quero listar todos os pedidos da minha loja e os seus valores para que eu possa controlar como está a entrada de dinheiro; [OPCIONAL]
+11. Como **lojista** , eu quero cadastrar novos produtos para oferecer novas opções de compra para os meus clientes;
+12. Como **lojista** , eu apagar produtos para remover produtos que não estejam mais sendo vendidos.
 
 Para realizar essas funções, foi disponibilizado um serviço REST que vocês possam realizar a operação da aplicação de vocês. Desse modo, vocês deverão focar apenas no front-end com Flutter, visto que vou disponibilizar o back-end para vocês.
 
