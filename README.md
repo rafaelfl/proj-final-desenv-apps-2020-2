@@ -620,3 +620,67 @@ Não há
 _Exemplo de resultado retornado:_
 
 Mensagem vazia com o código de status 204 (sem conteúdo)
+
+**Listar todos os pedidos da loja**
+
+_Endpoint:_[https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/all](https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/all)
+
+_Método:_ GET
+
+_Exemplo de resultado retornado:_
+
+{
+
+&quot;success&quot;: true,
+
+&quot;data&quot;: [
+
+{
+
+&quot;items&quot;: [
+
+{
+
+&quot;id&quot;: 4,
+
+&quot;title&quot;: &quot;Sleek Granite Shoes&quot;,
+
+&quot;description&quot;: &quot;Non quam magni. Ad delectus aut et. Nisi repellat et non optio beatae voluptatem accusamus corporis. Ullam quis ipsam. Asperiores reiciendis atque dolorem omnis suscipit non provident ipsa assumenda.&quot;,
+
+&quot;price&quot;: 170,
+
+&quot;image&quot;: &quot;http://lorempixel.com/640/480&quot;,
+
+&quot;qty&quot;: 2
+
+}
+
+],
+
+&quot;id&quot;: 1,
+
+&quot;userId&quot;: 2,
+
+&quot;grandTotal&quot;: 340,
+
+&quot;status&quot;: &quot;cancelled&quot;,
+
+&quot;createdAt&quot;: &quot;2021-04-15T00:07:18.083Z&quot;,
+
+&quot;updatedAt&quot;: &quot;2021-04-15T00:10:54.906Z&quot;
+
+},
+
+…
+
+]
+
+}
+
+Os pedidos podem ter um dos dois três estados: &quot;pending&quot; (aguardando pagamento), &quot;cancelled&quot; (pedido cancelado) e &quot;completed&quot; (pedido pago). Para consultar os pedidos por tipo, basta realizar a mesma requisição GET acima, porém com a seguintes URLs (respectivamente):
+
+[https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/all/pending](https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/all/pending)
+
+[https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/all/cancelled](https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/all/cancelled)
+
+[https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/all/completed](https://restful-ecommerce-ufma.herokuapp.com/api/v1/orders/all/completed)
